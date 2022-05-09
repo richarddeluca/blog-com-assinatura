@@ -1,0 +1,38 @@
+.signInButton {
+    height: 3rem;
+    border-radius: 3rem;
+    border: 0;
+
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: var(--cyan-300);
+    color: var(--gray-50);
+    font-weight: bold;
+
+    transition: background-color .2s;
+
+    &:hover {
+        background-color: var(--cyan-400);
+    }
+
+    svg {
+        width: 20px;
+        height: 20px;
+    }
+
+    svg.logo {
+        margin-right: 1rem;
+    }
+
+    svg.closeX {
+        margin-left: 1rem;
+        transition: color .1s;
+
+        &:hover {
+            color: var(--red-300)
+        }
+    }
+}

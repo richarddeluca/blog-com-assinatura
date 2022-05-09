@@ -1,0 +1,46 @@
+.mainContainer {
+    max-width: 1120px;
+    padding: 0 2rem;
+    margin: 0 auto;
+    height: calc(100vh - 5rem);
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.hero {
+    max-width: 600px;
+
+    h1 {
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 4.5rem;
+        font-weight: 800;
+        line-height: 4.5rem;
+        margin-top: 2.5rem;
+
+        span {
+            color: var(--cyan-300);
+        }
+    }
+
+    p:first-of-type {
+        font-weight: bold;
+    }
+
+    p {
+        font-size: 1.5rem;
+        line-height: 2.25rem;
+        margin-top: 1.5rem;
+
+        span {
+            color: var(--cyan-300);
+            font-weight: bold;
+        }
+    }
+
+    button {
+        margin-top: 2.5rem;
+    }
+}
