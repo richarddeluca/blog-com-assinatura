@@ -4,6 +4,8 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import { SubscribeButton } from '../components/SubscribeButton'
 import { stripe } from '../services/stripe'
+import {createClient, linkResolver} from '../../prismicio'
+import * as prismicH from '@prismicio/helpers'
 
 interface HomeProps {
   product: {
@@ -37,7 +39,8 @@ const Home: NextPage<HomeProps> = ({ product }) => {
   )
 }
 
-export const getStaticProps: GetStaticProps = async () => {
+export const getStaticProps: GetStaticProps = async (previewData) => {
+  const client = createClient({previewData})
 
   const price = await stripe.prices.retrieve('price_1Ku2FnCkjMuR48QPkOAbHXEB')
 

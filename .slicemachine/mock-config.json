@@ -1,0 +1,75 @@
+{
+  "_cts": {
+    "postId": {},
+    "article": {
+      "title": {
+        "config": {
+          "patternType": "HEADING",
+          "blocks": 1
+        }
+      }
+    }
+  },
+  "slices": {
+    "Slice1": {},
+    "TextBlock": {
+      "default": {
+        "primary": {}
+      },
+      "variationCuscus": {
+        "primary": {},
+        "items": {}
+      }
+    },
+    "Seila": {},
+    "ArticleContent": {
+      "default": {
+        "primary": {
+          "description": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          },
+          "subtitle": {
+            "config": {
+              "patternType": "HEADING",
+              "blocks": 1
+            }
+          }
+        },
+        "items": {
+          "paragraph": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    },
+    "Blog": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Head": {},
+    "BlogContent": {
+      "default": {
+        "primary": {}
+      }
+    },
+    "Quote": {
+      "default": {
+        "primary": {
+          "quote": {
+            "config": {
+              "patternType": "PARAGRAPH",
+              "blocks": 1
+            }
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "text_block",
+    "items": [
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "https://slicemachine.dev"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Est deserunt nisi irure ex duis. Velit mollit ad culpa non dolore id eu aliquip. Est aliqua adipisicing occaecat consectetur deserunt est pariatur consectetur quis.",
+            "spans": []
+          }
+        ]
+      },
+      {
+        "link": {
+          "link_type": "Web",
+          "url": "http://twitter.com"
+        },
+        "content": [
+          {
+            "type": "paragraph",
+            "text": "Qui labore occaecat occaecat.",
+            "spans": []
+          }
+        ]
+      }
+    ],
+    "primary": {
+      "yes": false,
+      "title": "disintermediate dynamic e-services"
+    }
+  },
+  {
+    "variation": "variationCuscus",
+    "name": "Variation cuscus",
+    "slice_type": "text_block",
+    "items": [],
+    "primary": {}
+  }
+]

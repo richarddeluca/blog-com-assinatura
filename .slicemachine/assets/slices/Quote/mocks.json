@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "quote",
+    "items": [],
+    "primary": {
+      "quote": [
+        {
+          "type": "paragraph",
+          "text": "Officia eiusmod sit commodo ea nostrud.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
